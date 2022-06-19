@@ -164,20 +164,34 @@ section .thumbnail:hover {
     background-color: var(--color-primary);
 }
 
-
 /* CSS */
-.btn{
+.btn {
     text-align: center;
 }
+
 .button {
     background-color: #000000;
     padding: 10px;
 }
+
 .button:hover {
     color: #d5d5d5;
-    background-color:#222831;
+    background-color: #222831;
 }
-.button a{
+
+.button a {
     color: #d5d5d5;
     text-decoration: none;
+}
+
+/* CSS responsive */
+.responsive {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    margin: 0 auto;
 }
